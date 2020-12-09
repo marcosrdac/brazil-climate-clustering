@@ -1,8 +1,8 @@
-# A Brazil Climate Estimate Cluster Analysis from 10-yr of INMET spatio-temporal data
+# A Brazil Climate Estimate Cluster Analysis from 11 year of INMET spatio-temporal data
 
 *Marcos Conceição*, 2020
 
-This notebook estimates Brazil climate types from 10 years of hourly measures from 561 meteorological stations. The original dataset station time series per year were downloaded from Instituto Nacional de Meteorologia (INMET) portal at [Dados Históricos - INMET](https://portal.inmet.gov.br/dadoshistoricos).
+This notebook estimates Brazil climate types from 11 years (2009-2019) of hourly measures from 561 meteorological stations. The original dataset station time series per year were downloaded from Instituto Nacional de Meteorologia (INMET) portal at [Dados Históricos - INMET](https://portal.inmet.gov.br/dadoshistoricos).
 
 The series were compiled into a new dataset, with mean temperature, humidity, precipitation, pressure, and wind speed, as well as their dispersion (standard deviation metric was used) in a year. All these variables are given along with station coordinates, state and Brazil region on each row.
 
