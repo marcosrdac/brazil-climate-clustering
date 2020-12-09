@@ -1216,7 +1216,7 @@ ax.grid()
 ```
 
 
-![png](output_32_0.png)
+![png](pix/output_32_0.png)
 
 
 CAICO station: São Pedro e São Paulo Archipelago.
@@ -1986,7 +1986,7 @@ axes.flat[-1].remove()
 ```
 
 
-![png](output_46_0.png)
+![png](pix/output_46_0.png)
 
 
 
@@ -2002,7 +2002,7 @@ axes.flat[-1].remove()
 ```
 
 
-![png](output_47_0.png)
+![png](pix/output_47_0.png)
 
 
 
@@ -2256,7 +2256,7 @@ plt.scatter(X_pca_full[1], X_pca_full[2], marker='.')
 
 
 
-![png](output_51_1.png)
+![png](pix/output_51_1.png)
 
 
 
@@ -2280,7 +2280,7 @@ plt.tight_layout()
 ```
 
 
-![png](output_52_0.png)
+![png](pix/output_52_0.png)
 
 
 Taking **90% of variance** with **5 components**:
@@ -2311,7 +2311,7 @@ plt.tight_layout()
 ```
 
 
-![png](output_54_0.png)
+![png](pix/output_54_0.png)
 
 
 
@@ -2604,7 +2604,7 @@ plt.legend()
 
 
 
-![png](output_59_1.png)
+![png](pix/output_59_1.png)
 
 
 
@@ -2633,7 +2633,7 @@ plt.legend()
 
 
 
-![png](output_60_1.png)
+![png](pix/output_60_1.png)
 
 
 ## Testing for some other values of K
@@ -2662,7 +2662,7 @@ plt.tight_layout()
 ```
 
 
-![png](output_63_0.png)
+![png](pix/output_63_0.png)
 
 
 ### PCA domain
@@ -2689,7 +2689,7 @@ plt.tight_layout()
 ```
 
 
-![png](output_65_0.png)
+![png](pix/output_65_0.png)
 
 
 ## Intra cluster variance analysis
@@ -2722,7 +2722,7 @@ plt.plot(range_k[[0,-1]], var[[0,-1]])
 
 
 
-![png](output_68_1.png)
+![png](pix/output_68_1.png)
 
 
 
@@ -2752,7 +2752,7 @@ ax.grid()
 ```
 
 
-![png](output_70_0.png)
+![png](pix/output_70_0.png)
 
 
 
@@ -2801,7 +2801,7 @@ elbow_analysis(KMeans, X_num_sc, k_min=2, k_max=20, return_best=4)
 
 
 
-![png](output_73_1.png)
+![png](pix/output_73_1.png)
 
 
 ## PCA domain
@@ -2819,7 +2819,7 @@ elbow_analysis(KMeans, X_pca, k_min=2, k_max=20, return_best=4)
 
 
 
-![png](output_75_1.png)
+![png](pix/output_75_1.png)
 
 
 Best results when k equals:
@@ -2877,7 +2877,7 @@ view_cluster_silhouettes(KMeans, X_num_sc, 2, 9)
 
 
 
-![png](output_79_1.png)
+![png](pix/output_79_1.png)
 
 
 
@@ -2921,7 +2921,7 @@ plot_silhouette(KMeans, X_num_sc, 2, 20)
 ```
 
 
-![png](output_81_0.png)
+![png](pix/output_81_0.png)
 
 
 Best results:
@@ -2955,7 +2955,7 @@ for i, ax in enumerate(axes.flat):
 ```
 
 
-![png](output_85_0.png)
+![png](pix/output_85_0.png)
 
 
 
@@ -2981,7 +2981,7 @@ for i, ax in enumerate(axes.flat):
 ```
 
 
-![png](output_87_0.png)
+![png](pix/output_87_0.png)
 
 
 
@@ -3007,7 +3007,7 @@ for i, ax in enumerate(axes.flat):
 ```
 
 
-![png](output_89_0.png)
+![png](pix/output_89_0.png)
 
 
 ## Cluster characteristics
@@ -3117,7 +3117,7 @@ table
 
 
 
-![png](output_91_1.png)
+![png](pix/output_91_1.png)
 
 
 
@@ -3252,7 +3252,7 @@ table
 
 
 
-![png](output_92_1.png)
+![png](pix/output_92_1.png)
 
 
 ## Schematic variable maps
@@ -3298,7 +3298,7 @@ axes.flat[-1].remove()
 ```
 
 
-![png](output_96_0.png)
+![png](pix/output_96_0.png)
 
 
 
@@ -3314,7 +3314,7 @@ axes.flat[-1].remove()
 ```
 
 
-![png](output_97_0.png)
+![png](pix/output_97_0.png)
 
 
 ## Misc. - Using categoric variables
@@ -3451,7 +3451,7 @@ view_cluster_silhouettes(KMeans, X_all, 2, 9)
 
 
 
-![png](output_100_1.png)
+![png](pix/output_100_1.png)
 
 
 
@@ -3460,7 +3460,7 @@ elbow_analysis(KMeans, X_all, k_max=15)
 ```
 
 
-![png](output_101_0.png)
+![png](pix/output_101_0.png)
 
 
 
@@ -3469,7 +3469,7 @@ plot_silhouette(KMeans, X_all, k_max=15)
 ```
 
 
-![png](output_102_0.png)
+![png](pix/output_102_0.png)
 
 
 
@@ -3494,5 +3494,5 @@ for i, ax in enumerate(axes.flat):
 ```
 
 
-![png](output_104_0.png)
+![png](pix/output_104_0.png)
 
