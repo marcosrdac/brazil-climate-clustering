@@ -1,6 +1,6 @@
 # A Brazil Climate Estimate Cluster Analysis from 11 year of INMET spatio-temporal data
 
-*Marcos Conceição*, 2020
+*Marcos Conceição*, Annie Silva & Quézia Santos, 2020
 
 This notebook estimates Brazil climate types from 11 years (2009-2019) of hourly measures from 561 meteorological stations. The original dataset station time series per year were downloaded from Instituto Nacional de Meteorologia (INMET) portal at [Dados Históricos - INMET](https://portal.inmet.gov.br/dadoshistoricos).
 
